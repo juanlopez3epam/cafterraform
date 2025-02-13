@@ -1,0 +1,55 @@
+{
+    "tenant": {
+        "sample": {
+            "id": "some-id"
+        },
+        "sample-prod": {
+            "id": "some-id"
+       }
+    },
+    "subscription": {
+        
+        "fordteam": {
+            "id": "some-id"
+        }
+        
+    },
+    "organization": {
+        "sample": {
+            "name": "sample",
+            "code": "sample",
+            "short_code": "sample"
+        }
+    },
+    "environment" : {
+        "dev": {
+            "name": "Development",
+            "code": "dev",
+            "short_code": "d"
+        }
+    },
+    "naming_convention": {
+        "prefixes": [
+            "app_code",
+            "env_short_code",
+            "loc_short_code"
+        ],
+        "keyvault_prefixes": [
+            "app_code",
+            "env_short_code"
+        ],
+        "suffixes": [],
+        "passthrough": "false",
+        "random_length": "0",
+        "default_region": "region1",
+        "use_slug": "true"
+    },
+    "network_restriction":{
+        "non_prod":{
+            "gh_runner_subnet_resource_id": "",
+            "ip_whitelist": [
+                "200.000.000.000"
+            ]
+        }
+    }
+}

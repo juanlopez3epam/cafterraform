@@ -1,0 +1,17 @@
+{
+  "app": {
+    "name": "Ford Manager",
+    "code": "ford"
+  },
+  "global": {
+    "organization": "sampleorg",
+    "tenant": "sampleorg",
+    "connectivity": "fordteam-core",
+    "subscription": "fordteam-core",
+    "environment": "fordteam-core",
+    "location": "eastus"
+  },
+  "stamp": {
+    "id": "02"
+  }
+}

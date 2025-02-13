@@ -1,0 +1,18 @@
+{
+    "app": {
+        "name": "Ford Manager",
+        "code": "ford"
+    },
+    "global": {
+        "organization": "sampleorg",
+        "tenant": "sampleorg-prod",
+        "connectivity": "uk1",
+        "subscription": "uk1",
+        "environment": "uk1",
+        "location": "uksouth",
+        "network_restriction_profile": "uksouth_uk1"
+    },
+    "stamp": {
+        "id": "01"
+    }
+}
